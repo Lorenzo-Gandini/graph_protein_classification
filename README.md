@@ -1,6 +1,13 @@
-# IJCNN 2025 Competition: Learning with Noisy Graph Labels
+# Deep Learning Hackaton 2025
 
-This repository contains the [winning solution](https://sites.google.com/view/learning-with-noisy-graph-labe/winners) of the challenge [IJCNN 2025 Competition: Learning with Noisy Graph Labels](https://sites.google.com/view/learning-with-noisy-graph-labe?usp=sharing). The approach leverages a **Variational Graph Autoencoder (VGAE)** to filter noisy data, a **ensemble of models** strategy to handle different types of noise, and a **weighted voting mechanism** to improve prediction accuracy.
+This repository is based on the [winning solution](https://sites.google.com/view/learning-with-noisy-graph-labe/winners) of the challenge [IJCNN 2025 Competition: Learning with Noisy Graph Labels](https://sites.google.com/view/learning-with-noisy-graph-labe?usp=sharing).
+ The approach leverages a **Variational Graph Autoencoder (VGAE)** to filter noisy data, a **ensemble of models** strategy to handle different types of noise, and a **weighted voting mechanism** to improve prediction accuracy.
+
+In addition to the methods proposed in the original repository, new losses are explored: SymmetricCrossEntropy (Wang et al. 2019), GeneralizedCrossEntropy (Zhang et al. 2018), Graph Centroid Outlier Discounting (Wani et al. 2023)
+
+Authors: <br>
+   - Flavio Ialongo 2000932
+   - Lorenzo Gandini 2235512
 
 ---
 
