@@ -1,0 +1,26 @@
+# Hyper-parameters
+device                =  "cuda" if torch.cuda.is_available() else "cpu"
+# Modello
+gnn_type              = 'gin-virtual'   
+num_layer             = 3
+emb_dim               = 256
+drop_ratio            = 0.6
+
+edge_p  = 0.1   # frazione di bordi da droppare
+node_p = 0.1
+
+lr                    = 0.01
+epochs                = 100
+weight_decay          = 0
+num_classes           = 6
+batch_size            = 32 
+patience              = 12
+residual              = True
+
+transforms = Compose([
+    EdgeDropout(p=edge_p),
+    NodeDropout(p=node_p),
+    add_zeros,
+])
+
+# Epoch 49: Train Loss=0.3052, Train Acc=0.9117, Val Acc=0.6953 DATASET C

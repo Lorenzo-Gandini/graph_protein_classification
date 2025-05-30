@@ -1,0 +1,24 @@
+# Hyper-parameters
+device                =  "cuda" if torch.cuda.is_available() else "cpu"
+# Modello
+gnn_type              = 'gin-virtual'   
+num_layer             = 3
+emb_dim               = 300
+drop_ratio            = 0.7
+
+pooling               = "attention"
+
+edge_p  = 0.1   # frazione di bordi da droppare
+node_p = 0.1
+
+lr                    = 0.01
+epochs                = 100
+weight_decay          = 0
+num_classes           = 6
+batch_size            = 32 
+patience              = 12
+residual              = True
+
+transforms = Compose([
+    add_zeros,
+])

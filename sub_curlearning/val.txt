@@ -1,0 +1,20 @@
+# Modello
+gnn_type              = 'gin-virtual'    # scegli fra 'gin','gin-virtual','gcn','gcn-virtual'
+num_layer             = 3
+emb_dim               = 256
+drop_ratio            = 0.4
+lr                    = 0.001
+weight_decay          = 5e-4
+epochs                = 50
+
+SYMMETRIC CE alpha=0.4, beta=0.6
+curriculum_start = 8
+forward = 15
+
+# Trasform
+edge_p  = 0.2   # EdgeDropout
+
+transforms = Compose([
+    EdgeDropout(p=edge_p),
+    add_zeros,
+])

@@ -15,6 +15,7 @@ def set_seed(seed=777):
         torch.cuda.manual_seed(seed)
         torch.cuda.manual_seed_all(seed)
 
+    return seed 
 
 
 def gzip_folder(folder_path, output_file):
