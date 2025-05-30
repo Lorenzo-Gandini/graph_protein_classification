@@ -5,6 +5,7 @@ This repository is based on the [winning solution](https://sites.google.com/view
 
 In addition to the methods proposed in the original repository, new losses are explored: SymmetricCrossEntropy (Wang et al. 2019), GeneralizedCrossEntropy (Zhang et al. 2018), Graph Centroid Outlier Discounting (Wani et al. 2023)
 
+Several other techinques are explored, but not supported by the main script: Curriculum Learning, Co-Teaching, DivideMix <br>
 Authors: <br>
    - Flavio Ialongo 2000932
    - Lorenzo Gandini 2235512
