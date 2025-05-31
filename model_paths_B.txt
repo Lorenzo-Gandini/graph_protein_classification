@@ -1,5 +1,5 @@
-checkpoints/model_B_cycle_1_epoch_11_loss_1.415_f1_0.555.pth
-checkpoints/model_B_cycle_2_epoch_1_loss_1.309_f1_0.558.pth
-checkpoints/model_B_cycle_3_epoch_2_loss_1.307_f1_0.569.pth
-checkpoints/model_B_cycle_4_epoch_2_loss_1.350_f1_0.552.pth
-checkpoints/model_B_cycle_5_epoch_1_loss_1.312_f1_0.563.pth
+checkpoints/model_B_cycle_1_epoch_14_loss_2.403_f1_0.553.pth
+checkpoints/model_B_cycle_2_epoch_24_loss_2.434_f1_0.576.pth
+checkpoints/model_B_cycle_3_epoch_13_loss_3.921_f1_0.585.pth
+checkpoints/model_B_cycle_4_epoch_5_loss_3.855_f1_0.580.pth
+checkpoints/model_B_cycle_5_epoch_26_loss_2.403_f1_0.602.pth

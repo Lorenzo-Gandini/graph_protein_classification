@@ -1,0 +1,31 @@
+2025-05-31 15:24:41,876 [WARNING] Unknown loss type 'None', defaulting to CrossEntropyLoss
+2025-05-31 15:24:41,876 [INFO] Loaded 5 models from model_paths_D.txt
+2025-05-31 15:24:41,876 [INFO] Generating predictions for ./datasets/D/test.json.gz
+2025-05-31 15:25:00,109 [INFO] Model weights for ensemble:
+2025-05-31 15:25:00,109 [INFO] Model: model_D_cycle_1_epoch_3_loss_0.457_f1_0.800.pth
+2025-05-31 15:25:00,109 [INFO] - Loss: 0.8002
+2025-05-31 15:25:00,109 [INFO] - Weight: 0.2010
+2025-05-31 15:25:00,109 [INFO] Model: model_D_cycle_2_epoch_7_loss_0.441_f1_0.791.pth
+2025-05-31 15:25:00,109 [INFO] - Loss: 0.7912
+2025-05-31 15:25:00,109 [INFO] - Weight: 0.1992
+2025-05-31 15:25:00,109 [INFO] Model: model_D_cycle_3_epoch_2_loss_0.457_f1_0.815.pth
+2025-05-31 15:25:00,109 [INFO] - Loss: 0.8151
+2025-05-31 15:25:00,109 [INFO] - Weight: 0.2040
+2025-05-31 15:25:00,109 [INFO] Model: model_D_cycle_4_epoch_6_loss_0.463_f1_0.776.pth
+2025-05-31 15:25:00,109 [INFO] - Loss: 0.7757
+2025-05-31 15:25:00,109 [INFO] - Weight: 0.1961
+2025-05-31 15:25:00,109 [INFO] Model: model_D_cycle_5_epoch_3_loss_0.467_f1_0.793.pth
+2025-05-31 15:25:00,109 [INFO] - Loss: 0.7934
+2025-05-31 15:25:00,109 [INFO] - Weight: 0.1996
+2025-05-31 15:25:00,112 [INFO] 
+Ensemble prediction statistics:
+2025-05-31 15:25:00,112 [INFO] Class 0: 354 samples
+2025-05-31 15:25:00,112 [INFO] Class 1: 109 samples
+2025-05-31 15:25:00,112 [INFO] Class 2: 371 samples
+2025-05-31 15:25:00,112 [INFO] Class 3: 224 samples
+2025-05-31 15:25:00,112 [INFO] Class 4: 1087 samples
+2025-05-31 15:25:00,112 [INFO] Class 5: 105 samples
+2025-05-31 15:25:00,112 [INFO] Average confidence: 0.8964
+2025-05-31 15:25:00,112 [INFO] Min confidence: 0.3953
+2025-05-31 15:25:00,112 [INFO] Max confidence: 1.0000
+2025-05-31 15:25:00,120 [INFO] Saved predictions to submission/testset_D.csv

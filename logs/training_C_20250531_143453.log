@@ -1,0 +1,163 @@
+2025-05-31 14:34:53,792 [INFO] Starting training using ./datasets/C/train.json.gz
+2025-05-31 14:35:28,323 [INFO] Loaded 5 pretrained models from model_paths_C.txt
+2025-05-31 14:35:28,324 [INFO] 
+Starting cycle 1 with seed 1
+2025-05-31 14:35:49,538 [INFO] 
+Starting training cycle 1
+2025-05-31 14:35:49,654 [INFO] Loaded pretrained model: checkpoints/model_C_cycle_1_epoch_1_loss_0.450_f1_0.834.pth
+2025-05-31 14:35:54,292 [INFO] New best model saved: checkpoints/model_C_cycle_1_epoch_0_loss_0.449_f1_0.828.pth
+2025-05-31 14:35:54,292 [INFO] Best validation metrics - Loss: 0.4488, F1: 0.8285
+2025-05-31 14:35:58,626 [INFO] New best model saved: checkpoints/model_C_cycle_1_epoch_1_loss_0.450_f1_0.834.pth
+2025-05-31 14:35:58,626 [INFO] Best validation metrics - Loss: 0.4502, F1: 0.8342
+2025-05-31 14:36:02,943 [INFO] New best model saved: checkpoints/model_C_cycle_1_epoch_2_loss_0.452_f1_0.838.pth
+2025-05-31 14:36:02,943 [INFO] Best validation metrics - Loss: 0.4518, F1: 0.8380
+2025-05-31 14:36:07,254 [INFO] New best model saved: checkpoints/model_C_cycle_1_epoch_3_loss_0.439_f1_0.839.pth
+2025-05-31 14:36:07,254 [INFO] Best validation metrics - Loss: 0.4394, F1: 0.8394
+2025-05-31 14:36:07,254 [INFO] Warm-up epochs finished
+2025-05-31 14:36:33,073 [INFO] Cycle 1, Epoch 10, LR 1.000e-07, Train Loss: 0.4825, Val Loss: 0.4444, Val F1: 0.8372
+2025-05-31 14:36:41,679 [INFO] New best model saved: checkpoints/model_C_cycle_1_epoch_11_loss_0.435_f1_0.840.pth
+2025-05-31 14:36:41,679 [INFO] Best validation metrics - Loss: 0.4346, F1: 0.8396
+2025-05-31 14:37:16,049 [INFO] Cycle 1, Epoch 20, LR 1.000e-07, Train Loss: 0.4844, Val Loss: 0.4396, Val F1: 0.8405
+2025-05-31 14:37:16,052 [INFO] New best model saved: checkpoints/model_C_cycle_1_epoch_19_loss_0.440_f1_0.841.pth
+2025-05-31 14:37:16,052 [INFO] Best validation metrics - Loss: 0.4396, F1: 0.8405
+2025-05-31 14:37:59,064 [INFO] Cycle 1, Epoch 30, LR 1.000e-07, Train Loss: 0.4831, Val Loss: 0.4427, Val F1: 0.8346
+2025-05-31 14:38:20,531 [INFO] New best model saved: checkpoints/model_C_cycle_1_epoch_34_loss_0.437_f1_0.842.pth
+2025-05-31 14:38:20,531 [INFO] Best validation metrics - Loss: 0.4371, F1: 0.8421
+2025-05-31 14:38:42,383 [INFO] Cycle 1, Epoch 40, LR 1.000e-07, Train Loss: 0.4836, Val Loss: 0.4324, Val F1: 0.8427
+2025-05-31 14:38:42,386 [INFO] New best model saved: checkpoints/model_C_cycle_1_epoch_39_loss_0.432_f1_0.843.pth
+2025-05-31 14:38:42,386 [INFO] Best validation metrics - Loss: 0.4324, F1: 0.8427
+2025-05-31 14:39:25,549 [INFO] Cycle 1, Epoch 50, LR 1.000e-07, Train Loss: 0.4831, Val Loss: 0.4375, Val F1: 0.8316
+2025-05-31 14:40:08,503 [INFO] Cycle 1, Epoch 60, LR 1.000e-07, Train Loss: 0.4839, Val Loss: 0.4514, Val F1: 0.8330
+2025-05-31 14:40:51,418 [INFO] Cycle 1, Epoch 70, LR 1.000e-07, Train Loss: 0.4772, Val Loss: 0.4382, Val F1: 0.8394
+2025-05-31 14:40:55,714 [INFO] Reloading best model: checkpoints/model_C_cycle_1_epoch_39_loss_0.432_f1_0.843.pth
+2025-05-31 14:41:34,400 [INFO] Cycle 1, Epoch 80, LR 1.000e-07, Train Loss: 0.4835, Val Loss: 0.4514, Val F1: 0.8306
+2025-05-31 14:41:38,710 [INFO] Reloading best model: checkpoints/model_C_cycle_1_epoch_39_loss_0.432_f1_0.843.pth
+2025-05-31 14:42:17,426 [INFO] Cycle 1, Epoch 90, LR 1.000e-07, Train Loss: 0.4852, Val Loss: 0.4418, Val F1: 0.8343
+2025-05-31 14:42:21,735 [INFO] Reloading best model: checkpoints/model_C_cycle_1_epoch_39_loss_0.432_f1_0.843.pth
+2025-05-31 14:42:21,735 [INFO] Early stopping triggered at epoch 90
+2025-05-31 14:42:21,735 [INFO] Cycle 1 completed:
+2025-05-31 14:42:21,735 [INFO] - Final validation loss: 0.4324
+2025-05-31 14:42:21,735 [INFO] - Final F1 score: 0.8427
+2025-05-31 14:42:21,736 [INFO] 
+Starting cycle 2 with seed 2
+2025-05-31 14:42:36,965 [INFO] 
+Starting training cycle 2
+2025-05-31 14:42:36,992 [INFO] Loaded pretrained model: checkpoints/model_C_cycle_2_epoch_0_loss_0.467_f1_0.837.pth
+2025-05-31 14:42:41,385 [INFO] New best model saved: checkpoints/model_C_cycle_2_epoch_0_loss_0.467_f1_0.837.pth
+2025-05-31 14:42:41,385 [INFO] Best validation metrics - Loss: 0.4671, F1: 0.8373
+2025-05-31 14:42:45,766 [INFO] New best model saved: checkpoints/model_C_cycle_2_epoch_1_loss_0.468_f1_0.838.pth
+2025-05-31 14:42:45,767 [INFO] Best validation metrics - Loss: 0.4681, F1: 0.8379
+2025-05-31 14:42:54,545 [INFO] New best model saved: checkpoints/model_C_cycle_2_epoch_3_loss_0.475_f1_0.841.pth
+2025-05-31 14:42:54,545 [INFO] Best validation metrics - Loss: 0.4749, F1: 0.8406
+2025-05-31 14:42:54,545 [INFO] Warm-up epochs finished
+2025-05-31 14:43:20,821 [INFO] Cycle 2, Epoch 10, LR 1.000e-07, Train Loss: 0.5245, Val Loss: 0.4719, Val F1: 0.8371
+2025-05-31 14:43:25,214 [INFO] New best model saved: checkpoints/model_C_cycle_2_epoch_10_loss_0.464_f1_0.841.pth
+2025-05-31 14:43:25,214 [INFO] Best validation metrics - Loss: 0.4640, F1: 0.8412
+2025-05-31 14:44:04,687 [INFO] Cycle 2, Epoch 20, LR 1.000e-07, Train Loss: 0.5226, Val Loss: 0.4806, Val F1: 0.8299
+2025-05-31 14:44:31,073 [INFO] New best model saved: checkpoints/model_C_cycle_2_epoch_25_loss_0.473_f1_0.841.pth
+2025-05-31 14:44:31,073 [INFO] Best validation metrics - Loss: 0.4732, F1: 0.8413
+2025-05-31 14:44:48,606 [INFO] Cycle 2, Epoch 30, LR 1.000e-07, Train Loss: 0.5189, Val Loss: 0.4699, Val F1: 0.8358
+2025-05-31 14:45:32,518 [INFO] Cycle 2, Epoch 40, LR 1.000e-07, Train Loss: 0.5144, Val Loss: 0.4713, Val F1: 0.8372
+2025-05-31 14:45:54,486 [INFO] New best model saved: checkpoints/model_C_cycle_2_epoch_44_loss_0.464_f1_0.847.pth
+2025-05-31 14:45:54,487 [INFO] Best validation metrics - Loss: 0.4644, F1: 0.8474
+2025-05-31 14:46:16,395 [INFO] Cycle 2, Epoch 50, LR 1.000e-07, Train Loss: 0.5170, Val Loss: 0.4665, Val F1: 0.8360
+2025-05-31 14:47:00,306 [INFO] Cycle 2, Epoch 60, LR 1.000e-07, Train Loss: 0.5146, Val Loss: 0.4686, Val F1: 0.8364
+2025-05-31 14:47:44,099 [INFO] Cycle 2, Epoch 70, LR 1.000e-07, Train Loss: 0.5136, Val Loss: 0.4706, Val F1: 0.8371
+2025-05-31 14:47:48,502 [INFO] Reloading best model: checkpoints/model_C_cycle_2_epoch_44_loss_0.464_f1_0.847.pth
+2025-05-31 14:48:28,039 [INFO] Cycle 2, Epoch 80, LR 1.000e-07, Train Loss: 0.5168, Val Loss: 0.4687, Val F1: 0.8419
+2025-05-31 14:48:32,437 [INFO] Reloading best model: checkpoints/model_C_cycle_2_epoch_44_loss_0.464_f1_0.847.pth
+2025-05-31 14:49:11,962 [INFO] Cycle 2, Epoch 90, LR 1.000e-07, Train Loss: 0.5132, Val Loss: 0.4654, Val F1: 0.8343
+2025-05-31 14:49:16,362 [INFO] Reloading best model: checkpoints/model_C_cycle_2_epoch_44_loss_0.464_f1_0.847.pth
+2025-05-31 14:49:38,276 [INFO] Early stopping triggered at epoch 95
+2025-05-31 14:49:38,277 [INFO] Cycle 2 completed:
+2025-05-31 14:49:38,277 [INFO] - Final validation loss: 0.4644
+2025-05-31 14:49:38,277 [INFO] - Final F1 score: 0.8474
+2025-05-31 14:49:38,277 [INFO] 
+Starting cycle 3 with seed 3
+2025-05-31 14:49:53,015 [INFO] 
+Starting training cycle 3
+2025-05-31 14:49:53,023 [INFO] Loaded pretrained model: checkpoints/model_C_cycle_3_epoch_1_loss_0.454_f1_0.822.pth
+2025-05-31 14:49:57,392 [INFO] New best model saved: checkpoints/model_C_cycle_3_epoch_0_loss_0.452_f1_0.817.pth
+2025-05-31 14:49:57,392 [INFO] Best validation metrics - Loss: 0.4518, F1: 0.8172
+2025-05-31 14:50:01,774 [INFO] New best model saved: checkpoints/model_C_cycle_3_epoch_1_loss_0.454_f1_0.822.pth
+2025-05-31 14:50:01,775 [INFO] Best validation metrics - Loss: 0.4537, F1: 0.8218
+2025-05-31 14:50:10,492 [INFO] New best model saved: checkpoints/model_C_cycle_3_epoch_3_loss_0.449_f1_0.824.pth
+2025-05-31 14:50:10,492 [INFO] Best validation metrics - Loss: 0.4486, F1: 0.8238
+2025-05-31 14:50:10,492 [INFO] Warm-up epochs finished
+2025-05-31 14:50:27,955 [INFO] New best model saved: checkpoints/model_C_cycle_3_epoch_7_loss_0.448_f1_0.824.pth
+2025-05-31 14:50:27,956 [INFO] Best validation metrics - Loss: 0.4483, F1: 0.8239
+2025-05-31 14:50:32,332 [INFO] New best model saved: checkpoints/model_C_cycle_3_epoch_8_loss_0.455_f1_0.827.pth
+2025-05-31 14:50:32,332 [INFO] Best validation metrics - Loss: 0.4552, F1: 0.8265
+2025-05-31 14:50:36,712 [INFO] Cycle 3, Epoch 10, LR 1.000e-07, Train Loss: 0.4703, Val Loss: 0.4529, Val F1: 0.8209
+2025-05-31 14:50:45,472 [INFO] New best model saved: checkpoints/model_C_cycle_3_epoch_11_loss_0.462_f1_0.827.pth
+2025-05-31 14:50:45,472 [INFO] Best validation metrics - Loss: 0.4623, F1: 0.8269
+2025-05-31 14:51:07,293 [INFO] New best model saved: checkpoints/model_C_cycle_3_epoch_16_loss_0.444_f1_0.828.pth
+2025-05-31 14:51:07,294 [INFO] Best validation metrics - Loss: 0.4438, F1: 0.8275
+2025-05-31 14:51:20,382 [INFO] Cycle 3, Epoch 20, LR 1.000e-07, Train Loss: 0.4699, Val Loss: 0.4442, Val F1: 0.8234
+2025-05-31 14:51:29,157 [INFO] New best model saved: checkpoints/model_C_cycle_3_epoch_21_loss_0.446_f1_0.829.pth
+2025-05-31 14:51:29,157 [INFO] Best validation metrics - Loss: 0.4457, F1: 0.8287
+2025-05-31 14:51:46,675 [INFO] New best model saved: checkpoints/model_C_cycle_3_epoch_25_loss_0.447_f1_0.830.pth
+2025-05-31 14:51:46,675 [INFO] Best validation metrics - Loss: 0.4469, F1: 0.8300
+2025-05-31 14:51:51,047 [INFO] New best model saved: checkpoints/model_C_cycle_3_epoch_26_loss_0.446_f1_0.832.pth
+2025-05-31 14:51:51,047 [INFO] Best validation metrics - Loss: 0.4457, F1: 0.8324
+2025-05-31 14:52:04,183 [INFO] Cycle 3, Epoch 30, LR 1.000e-07, Train Loss: 0.4695, Val Loss: 0.4480, Val F1: 0.8237
+2025-05-31 14:52:47,983 [INFO] Cycle 3, Epoch 40, LR 1.000e-07, Train Loss: 0.4761, Val Loss: 0.4514, Val F1: 0.8156
+2025-05-31 14:53:31,789 [INFO] Cycle 3, Epoch 50, LR 1.000e-07, Train Loss: 0.4686, Val Loss: 0.4571, Val F1: 0.8205
+2025-05-31 14:54:15,651 [INFO] Cycle 3, Epoch 60, LR 1.000e-07, Train Loss: 0.4651, Val Loss: 0.4467, Val F1: 0.8259
+2025-05-31 14:54:20,111 [INFO] Reloading best model: checkpoints/model_C_cycle_3_epoch_26_loss_0.446_f1_0.832.pth
+2025-05-31 14:54:59,500 [INFO] Cycle 3, Epoch 70, LR 1.000e-07, Train Loss: 0.4711, Val Loss: 0.4494, Val F1: 0.8177
+2025-05-31 14:55:03,991 [INFO] Reloading best model: checkpoints/model_C_cycle_3_epoch_26_loss_0.446_f1_0.832.pth
+2025-05-31 14:55:34,887 [INFO] Early stopping triggered at epoch 77
+2025-05-31 14:55:34,887 [INFO] Cycle 3 completed:
+2025-05-31 14:55:34,887 [INFO] - Final validation loss: 0.4457
+2025-05-31 14:55:34,887 [INFO] - Final F1 score: 0.8324
+2025-05-31 14:55:34,887 [INFO] 
+Starting cycle 4 with seed 4
+2025-05-31 14:55:49,502 [INFO] 
+Starting training cycle 4
+2025-05-31 14:55:49,530 [INFO] Loaded pretrained model: checkpoints/model_C_cycle_4_epoch_2_loss_0.406_f1_0.845.pth
+2025-05-31 14:55:53,961 [INFO] New best model saved: checkpoints/model_C_cycle_4_epoch_0_loss_0.411_f1_0.839.pth
+2025-05-31 14:55:53,961 [INFO] Best validation metrics - Loss: 0.4106, F1: 0.8386
+2025-05-31 14:55:58,383 [INFO] New best model saved: checkpoints/model_C_cycle_4_epoch_1_loss_0.395_f1_0.849.pth
+2025-05-31 14:55:58,383 [INFO] Best validation metrics - Loss: 0.3952, F1: 0.8488
+2025-05-31 14:56:07,326 [INFO] Warm-up epochs finished
+2025-05-31 14:56:34,142 [INFO] Cycle 4, Epoch 10, LR 1.000e-07, Train Loss: 0.4913, Val Loss: 0.3963, Val F1: 0.8386
+2025-05-31 14:57:18,594 [INFO] Cycle 4, Epoch 20, LR 1.000e-07, Train Loss: 0.4907, Val Loss: 0.4041, Val F1: 0.8461
+2025-05-31 14:58:02,860 [INFO] Cycle 4, Epoch 30, LR 1.000e-07, Train Loss: 0.4936, Val Loss: 0.3952, Val F1: 0.8419
+2025-05-31 14:58:07,285 [INFO] Reloading best model: checkpoints/model_C_cycle_4_epoch_1_loss_0.395_f1_0.849.pth
+2025-05-31 14:58:47,187 [INFO] Cycle 4, Epoch 40, LR 1.000e-07, Train Loss: 0.4941, Val Loss: 0.3871, Val F1: 0.8422
+2025-05-31 14:58:51,613 [INFO] Reloading best model: checkpoints/model_C_cycle_4_epoch_1_loss_0.395_f1_0.849.pth
+2025-05-31 14:59:31,477 [INFO] Cycle 4, Epoch 50, LR 1.000e-07, Train Loss: 0.4901, Val Loss: 0.4042, Val F1: 0.8356
+2025-05-31 14:59:35,907 [INFO] Reloading best model: checkpoints/model_C_cycle_4_epoch_1_loss_0.395_f1_0.849.pth
+2025-05-31 14:59:44,780 [INFO] Early stopping triggered at epoch 52
+2025-05-31 14:59:44,780 [INFO] Cycle 4 completed:
+2025-05-31 14:59:44,780 [INFO] - Final validation loss: 0.3952
+2025-05-31 14:59:44,780 [INFO] - Final F1 score: 0.8488
+2025-05-31 14:59:44,780 [INFO] 
+Starting cycle 5 with seed 5
+2025-05-31 14:59:59,834 [INFO] 
+Starting training cycle 5
+2025-05-31 14:59:59,846 [INFO] Loaded pretrained model: checkpoints/model_C_cycle_5_epoch_0_loss_0.414_f1_0.838.pth
+2025-05-31 15:00:04,225 [INFO] New best model saved: checkpoints/model_C_cycle_5_epoch_0_loss_0.414_f1_0.838.pth
+2025-05-31 15:00:04,225 [INFO] Best validation metrics - Loss: 0.4145, F1: 0.8384
+2025-05-31 15:00:17,319 [INFO] Warm-up epochs finished
+2025-05-31 15:00:21,685 [INFO] New best model saved: checkpoints/model_C_cycle_5_epoch_4_loss_0.413_f1_0.843.pth
+2025-05-31 15:00:21,685 [INFO] Best validation metrics - Loss: 0.4132, F1: 0.8430
+2025-05-31 15:00:34,769 [INFO] New best model saved: checkpoints/model_C_cycle_5_epoch_7_loss_0.409_f1_0.843.pth
+2025-05-31 15:00:34,769 [INFO] Best validation metrics - Loss: 0.4093, F1: 0.8435
+2025-05-31 15:00:43,500 [INFO] Cycle 5, Epoch 10, LR 1.000e-07, Train Loss: 0.5026, Val Loss: 0.4062, Val F1: 0.8452
+2025-05-31 15:00:43,503 [INFO] New best model saved: checkpoints/model_C_cycle_5_epoch_9_loss_0.406_f1_0.845.pth
+2025-05-31 15:00:43,503 [INFO] Best validation metrics - Loss: 0.4062, F1: 0.8452
+2025-05-31 15:01:27,263 [INFO] Cycle 5, Epoch 20, LR 1.000e-07, Train Loss: 0.5026, Val Loss: 0.4051, Val F1: 0.8372
+2025-05-31 15:02:11,008 [INFO] Cycle 5, Epoch 30, LR 1.000e-07, Train Loss: 0.4931, Val Loss: 0.4083, Val F1: 0.8305
+2025-05-31 15:02:54,685 [INFO] Cycle 5, Epoch 40, LR 1.000e-07, Train Loss: 0.4921, Val Loss: 0.4039, Val F1: 0.8321
+2025-05-31 15:02:59,065 [INFO] Reloading best model: checkpoints/model_C_cycle_5_epoch_9_loss_0.406_f1_0.845.pth
+2025-05-31 15:03:38,391 [INFO] Cycle 5, Epoch 50, LR 1.000e-07, Train Loss: 0.4997, Val Loss: 0.3931, Val F1: 0.8401
+2025-05-31 15:03:42,782 [INFO] Reloading best model: checkpoints/model_C_cycle_5_epoch_9_loss_0.406_f1_0.845.pth
+2025-05-31 15:04:22,181 [INFO] Cycle 5, Epoch 60, LR 1.000e-07, Train Loss: 0.4983, Val Loss: 0.4009, Val F1: 0.8390
+2025-05-31 15:04:26,555 [INFO] Reloading best model: checkpoints/model_C_cycle_5_epoch_9_loss_0.406_f1_0.845.pth
+2025-05-31 15:04:26,555 [INFO] Early stopping triggered at epoch 60
+2025-05-31 15:04:26,556 [INFO] Cycle 5 completed:
+2025-05-31 15:04:26,556 [INFO] - Final validation loss: 0.4062
+2025-05-31 15:04:26,556 [INFO] - Final F1 score: 0.8452
+2025-05-31 15:04:26,556 [INFO] Saved paths of the best models to model_paths_C.txt

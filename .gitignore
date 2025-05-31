@@ -1,5 +1,4 @@
 datasets/*
-checkpoints/*
-logs/*
 DEEPLEARNING_Baseline.ipynb
 src/__pycache__/*
+source/__pycache__/*

@@ -13,12 +13,12 @@ class ModelConfig:
     latent_dim: int = 8
     num_classes: int = 6
     epochs: int = 150
-    learning_rate: float = 0.0000001
+    learning_rate: float = 0.00005
     num_cycles: int = 5
     warmup: int = 5
     early_stopping_patience: int = 20
+    ub_lr: int = 0.8
     loss_type: str = "ce"
-    ub_lr: int = 1
     @property
     def folder_name(self) -> str:
         """Extract folder name (A, B, C, or D) from test path"""

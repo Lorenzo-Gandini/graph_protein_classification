@@ -1,0 +1,2 @@
+2025-05-30 17:58:26,126 [INFO] Loaded 5 models from model_paths_A.txt
+2025-05-30 17:58:26,126 [INFO] Generating predictions for ./datasets/A/test.json.gz

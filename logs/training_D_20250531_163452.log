@@ -1,0 +1,17 @@
+2025-05-31 16:34:52,613 [INFO] Starting training using ./datasets/D/train.json.gz
+2025-05-31 16:35:41,450 [INFO] Loaded 10 pretrained models from model_paths_D.txt
+2025-05-31 16:35:41,450 [INFO] 
+Starting cycle 1 with seed 1
+2025-05-31 16:36:10,762 [INFO] 
+Starting training cycle 1
+2025-05-31 16:36:10,889 [INFO] Loaded pretrained model: checkpoints/model_D_cycle_1_epoch_2_loss_0.378_f1_0.785.pth
+2025-05-31 16:36:19,783 [INFO] New best model saved: checkpoints/model_D_cycle_1_epoch_0_loss_3.000_f1_0.774.pth
+2025-05-31 16:36:19,783 [INFO] Best validation metrics - Loss: 3.0003, F1: 0.7738
+2025-05-31 16:36:28,344 [INFO] New best model saved: checkpoints/model_D_cycle_1_epoch_1_loss_1.404_f1_0.774.pth
+2025-05-31 16:36:28,344 [INFO] Best validation metrics - Loss: 1.4043, F1: 0.7741
+2025-05-31 16:36:36,918 [INFO] New best model saved: checkpoints/model_D_cycle_1_epoch_2_loss_2.344_f1_0.776.pth
+2025-05-31 16:36:36,919 [INFO] Best validation metrics - Loss: 2.3436, F1: 0.7763
+2025-05-31 16:36:45,475 [INFO] Warm-up epochs finished
+2025-05-31 16:37:10,961 [INFO] New best model saved: checkpoints/model_D_cycle_1_epoch_6_loss_2.379_f1_0.778.pth
+2025-05-31 16:37:10,961 [INFO] Best validation metrics - Loss: 2.3788, F1: 0.7784
+2025-05-31 16:37:36,117 [INFO] Cycle 1, Epoch 10, LR 1.000e-07, Train Loss: 1.8289, Val Loss: 1.4062, Val F1: 0.7762

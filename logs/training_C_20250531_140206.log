@@ -1,0 +1,15 @@
+2025-05-31 14:02:06,232 [INFO] Starting training using ./datasets/C/train.json.gz
+2025-05-31 14:02:41,212 [INFO] Loaded 5 pretrained models from model_paths_C.txt
+2025-05-31 14:02:41,221 [INFO] 
+Starting cycle 1 with seed 1
+2025-05-31 14:03:02,407 [INFO] 
+Starting training cycle 1
+2025-05-31 14:03:02,531 [INFO] Loaded pretrained model: checkpoints/model_C_cycle_1_epoch_29_loss_0.501_f1_0.827.pth
+2025-05-31 14:03:07,909 [INFO] New best model saved: checkpoints/model_C_cycle_1_epoch_0_loss_0.497_f1_0.817.pth
+2025-05-31 14:03:07,909 [INFO] Best validation metrics - Loss: 0.4967, F1: 0.8170
+2025-05-31 14:03:12,876 [INFO] New best model saved: checkpoints/model_C_cycle_1_epoch_1_loss_0.486_f1_0.821.pth
+2025-05-31 14:03:12,876 [INFO] Best validation metrics - Loss: 0.4858, F1: 0.8212
+2025-05-31 14:03:27,699 [INFO] New best model saved: checkpoints/model_C_cycle_1_epoch_4_loss_0.485_f1_0.824.pth
+2025-05-31 14:03:27,699 [INFO] Best validation metrics - Loss: 0.4850, F1: 0.8242
+2025-05-31 14:03:32,633 [INFO] New best model saved: checkpoints/model_C_cycle_1_epoch_5_loss_0.496_f1_0.826.pth
+2025-05-31 14:03:32,633 [INFO] Best validation metrics - Loss: 0.4956, F1: 0.8256

@@ -168,7 +168,6 @@ class ModelTrainer:
             factor=0.7,  # Reduce LR by 50% on plateau
             patience=10,  # Number of epochs with no improvement
             min_lr=1e-6,
-            verbose=True
         )
         
         best_val_loss = float('inf')

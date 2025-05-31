@@ -1,0 +1,6 @@
+2025-05-30 19:14:57,565 [INFO] Starting training using ./datasets/D/train.json.gz
+2025-05-30 19:15:46,013 [INFO] Loaded 3 pretrained models from model_paths_ABCD.txt
+2025-05-30 19:15:46,015 [INFO] 
+Starting cycle 1 with seed 1
+2025-05-30 19:16:16,949 [INFO] 
+Starting training cycle 1

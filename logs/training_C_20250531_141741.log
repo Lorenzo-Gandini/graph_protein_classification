@@ -1,0 +1,7 @@
+2025-05-31 14:17:41,153 [INFO] Starting training using ./datasets/C/train.json.gz
+2025-05-31 14:18:16,386 [INFO] Loaded 5 pretrained models from model_paths_C.txt
+2025-05-31 14:18:16,387 [INFO] 
+Starting cycle 1 with seed 1
+2025-05-31 14:18:36,989 [INFO] 
+Starting training cycle 1
+2025-05-31 14:18:37,126 [INFO] Loaded pretrained model: checkpoints/model_C_cycle_1_epoch_29_loss_0.501_f1_0.827.pth

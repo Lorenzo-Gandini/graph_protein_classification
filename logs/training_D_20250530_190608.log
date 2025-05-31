@@ -1,0 +1,30 @@
+2025-05-30 19:06:08,952 [INFO] Loaded 5 models from model_paths_D.txt
+2025-05-30 19:06:08,952 [INFO] Generating predictions for ./datasets/D/test.json.gz
+2025-05-30 19:06:27,454 [INFO] Model weights for ensemble:
+2025-05-30 19:06:27,454 [INFO] Model: model_D_cycle_1_epoch_2_loss_0.441_f1_0.796.pth
+2025-05-30 19:06:27,454 [INFO] - Loss: 0.7956
+2025-05-30 19:06:27,454 [INFO] - Weight: 0.2007
+2025-05-30 19:06:27,454 [INFO] Model: model_D_cycle_2_epoch_1_loss_0.469_f1_0.794.pth
+2025-05-30 19:06:27,454 [INFO] - Loss: 0.7944
+2025-05-30 19:06:27,454 [INFO] - Weight: 0.2005
+2025-05-30 19:06:27,454 [INFO] Model: model_D_cycle_3_epoch_2_loss_0.433_f1_0.808.pth
+2025-05-30 19:06:27,454 [INFO] - Loss: 0.8082
+2025-05-30 19:06:27,454 [INFO] - Weight: 0.2033
+2025-05-30 19:06:27,454 [INFO] Model: model_D_cycle_4_epoch_1_loss_0.491_f1_0.775.pth
+2025-05-30 19:06:27,454 [INFO] - Loss: 0.7752
+2025-05-30 19:06:27,454 [INFO] - Weight: 0.1967
+2025-05-30 19:06:27,454 [INFO] Model: model_D_cycle_5_epoch_0_loss_0.504_f1_0.786.pth
+2025-05-30 19:06:27,454 [INFO] - Loss: 0.7863
+2025-05-30 19:06:27,454 [INFO] - Weight: 0.1989
+2025-05-30 19:06:27,457 [INFO] 
+Ensemble prediction statistics:
+2025-05-30 19:06:27,457 [INFO] Class 0: 367 samples
+2025-05-30 19:06:27,457 [INFO] Class 1: 110 samples
+2025-05-30 19:06:27,457 [INFO] Class 2: 377 samples
+2025-05-30 19:06:27,457 [INFO] Class 3: 224 samples
+2025-05-30 19:06:27,457 [INFO] Class 4: 1074 samples
+2025-05-30 19:06:27,457 [INFO] Class 5: 98 samples
+2025-05-30 19:06:27,457 [INFO] Average confidence: 0.8944
+2025-05-30 19:06:27,457 [INFO] Min confidence: 0.3974
+2025-05-30 19:06:27,457 [INFO] Max confidence: 1.0000
+2025-05-30 19:06:27,473 [INFO] Saved predictions to submission/testset_D.csv
