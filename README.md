@@ -1,10 +1,10 @@
 # Deep Learning Hackaton 2025
 
-This repository is based on the [winning solution](https://sites.google.com/view/learning-with-noisy-graph-labe/winners) of the challenge [IJCNN 2025 Competition: Learning with Noisy Graph Labels](https://sites.google.com/view/learning-with-noisy-graph-labe?usp=sharing).
+This repository is heavily reliant on the [winning solution](https://sites.google.com/view/learning-with-noisy-graph-labe/winners) of the challenge [IJCNN 2025 Competition: Learning with Noisy Graph Labels](https://sites.google.com/view/learning-with-noisy-graph-labe?usp=sharing).
  The approach leverages a **Variational Graph Autoencoder (VGAE)** to filter noisy data, a **ensemble of models** strategy to handle different types of noise, and a **weighted voting mechanism** to improve prediction accuracy.
 
-In addition to the methods proposed in the original repository, new losses are explored: SymmetricCrossEntropy (Wang et al. 2019), GeneralizedCrossEntropy (Zhang et al. 2018), Graph Centroid Outlier Discounting (Wani et al. 2023)
-
+In addition to the methods proposed in the original repository, new losses are explored: SymmetricCrossEntropy (Wang et al. 2019), GeneralizedCrossEntropy (Zhang et al. 2018), Graph Centroid Outlier Discounting (Wani et al. 2023) <br>
+Since Graph Centroid Outlier Discounting consistently produced the best results, we adopted it as our primary loss function.
 Several other techinques are explored, but not supported by the main script: Curriculum Learning, Co-Teaching, DivideMix <br>
 Authors: <br>
    - Flavio Ialongo 2000932
@@ -51,16 +51,12 @@ The method consists of four key components to handle noisy labels effectively:
    - After pretraining, the model is fine-tuned on individual datasets (e.g., dataset A) using the pretrained model as a starting point. This allows the model to adapt to the specific noise patterns of the target dataset while retaining the general knowledge learned during pretraining.
    - Example command for fine-tuning on dataset A:
      ```bash
-     python main.py --train_path ../A/train.json.gz --test_path ../A/test.json.gz --num_cycles 5 --pretrain_paths model_paths_ABCD.txt
+     python main.py --train_path ../A/train.json.gz --test_path ../A/test.json.gz --num_cycles 5 --pretrain_paths model_paths_ABCD.txt --loss_type gcod
      ```
 
 4. **Prediction:**
    - The ensemble of models is used to predict on the test set.
    - Predictions from each model are combined using weighted voting, where the weights are the F1 scores of the models.
-
-5. **Resuming Training:**
-   - Training can be resumed by loading pretrained models and continuing training with adjusted hyperparameters (e.g., learning rate, batch size).
-
 ---
 
 ## Usage
@@ -74,19 +70,13 @@ python main.py --train_path "../A/train.json.gz ../B/train.json.gz ../C/train.js
 ### Fine-Tuning on a Specific Dataset
 To fine-tune the model on dataset A using the pretrained model (`model_paths_ABCD.txt`):
 ```bash
-python main.py --train_path ../A/train.json.gz --test_path ../A/test.json.gz --num_cycles 5 --pretrain_paths model_paths_ABCD.txt
+python main.py --train_path ../A/train.json.gz --test_path ../A/test.json.gz --num_cycles 5 --pretrain_paths model_paths_ABCD.txt --loss_type gcod
 ```
 
 ### Prediction
 To make predictions using the trained models:
 ```bash
 python main.py --test_path ../A/test.json.gz --pretrain_paths model_paths_A.txt
-```
-
-### Resuming Training
-To resume training with pretrained models:
-```bash
-python main.py --train_path ../A/train.json.gz --test_path ../A/test.json.gz --num_cycles 5 --pretrain_paths model_paths_A.txt
 ```
 
 ---
@@ -96,7 +86,7 @@ python main.py --train_path ../A/train.json.gz --test_path ../A/test.json.gz --n
 ### 1. Variational Graph Autoencoder (VGAE)
 - **Encoder:** The encoder maps the input graph to a latent space, capturing the essential patterns while filtering out noise.
 - **Decoder:** The decoder reconstructs the graph from the latent space, ensuring that the learned representations are meaningful.
-- **Loss Function:** The loss function combines reconstruction loss, KL divergence, and classification loss to train the model effectively.
+- **Loss Function:** The loss function combines reconstruction loss, KL divergence, and classification loss to train the model effectively. This composite loss is further enhanced with Graph Centroid Outlier Discounting (GCOD) to achieve superior results.
 
 ### 2. Ensemble of Models and Weighted Voting
 - The predictions from the ensemble of models are combined using weighted voting, where the weights are the F1 scores of the models. This ensures that models with better performance contribute more to the final prediction.
@@ -109,21 +99,5 @@ python main.py --train_path ../A/train.json.gz --test_path ../A/test.json.gz --n
 - **`EdgeVGAE`:** The core model class implementing the VGAE with a classification head.
 - **`ModelTrainer`:** A utility class for training multiple cycles and managing the ensemble of models.
 - **`Config`:** A configuration class for managing hyperparameters and settings.
-
+- **`Losses`:** A file containing the implementation of the differnt losses.
 ---
-
-## Results
-
-The method achieves robust performance across different datasets with varying types of noise. The use of VGAE for noise filtering, combined with the ensemble of models and weighted voting, ensures that the model generalizes well and produces accurate predictions.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Contact
-
-For questions or feedback, please contact Carlos Minutti at cminutti@data-fusionlab.com
