@@ -11,7 +11,10 @@ Authors: <br>
    - Lorenzo Gandini 2235512
 
 ---
+## Our Procedure 
 
+![alt text](https://github.com/Lorenzo-Gandini/graph_protein_classification/blob/main/method_illustration.png "Method Illustration")
+---
 ## Overview of the Method
 
 The method consists of four key components to handle noisy labels effectively:
